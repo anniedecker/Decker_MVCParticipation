@@ -13,14 +13,21 @@ namespace Decker_MVCParticipation.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Student()
         {
             ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Course()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
+        public ActionResult Registration()
         {
             ViewBag.Message = "Your contact page.";
 
